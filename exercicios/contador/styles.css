@@ -61,14 +61,25 @@ body {
 }
 
 button {
-    width: 20%;
-    padding: 20px;
-    font-size: 30px;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    border: none;
-    background-color: #c09491;
+    font-size: 24px;
+    font-weight: bold;
     color: #F0F6F6ff;
-    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: #c09491;
+    border: none;
+    border-radius: 25px;
     cursor: pointer;
-    margin: 16px 16px;
+    margin: 10px;
+    box-shadow: 0px 3px 0px #a7848b;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #a22365;
+    box-shadow: 0px 5px 0px #743455;
 }
