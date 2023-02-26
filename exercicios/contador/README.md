@@ -13,15 +13,25 @@ Um contator com as seguintes regras:
 
 ## Screenshots
 
+- Contator inicial
+
 ![Contator inicial](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/contador-0.png?raw=true)
 
-![Erro de número negativo](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/erro-negativo.png?raw=true)
+- Alerta de número negativo
+
+![Erro de número negativo](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/erro-negativo-2.png?raw=true)
+
+- Número Ímpar
 
 ![Número Ímpar](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/numero-impar.png?raw=true)
 
+- Zerar
+
 ![Zerar](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/zerar.png?raw=true)
 
-![Erro de número maior que 100](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/erro-maior-que-100.png?raw=true)
+- Alerta de número maior que 100
+
+![Erro de número maior que 100](https://github.com/josemailson/PoloTech927/blob/main/exercicios/contador/assets/images/erro-maior-que-100-2.png?raw=true)
 
 ## Feedback
 
