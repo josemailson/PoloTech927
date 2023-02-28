@@ -7,12 +7,10 @@ let number = 0;
 
 function updateNumber() {
   numberElement.textContent = number;
-  if (number % 2 === 0) {
-    if (number === 0) {
-        numberElement.style.color = '#F0F6F6ff';
-    } else {
-        numberElement.style.color = '#ce1836';
-    }
+  if (number === 0) {
+    numberElement.style.color = '#F0F6F6ff';
+  } else if (number % 2 === 0) {
+    numberElement.style.color = '#ce1836';
   } else {
     numberElement.style.color = '#009989';
   }
@@ -20,7 +18,7 @@ function updateNumber() {
 
 updateNumber();
 
-decreaseButton.addEventListener('click', function() {
+decreaseButton.addEventListener('click', function () {
   if (number > 0) {
     number--;
     updateNumber();
@@ -29,12 +27,12 @@ decreaseButton.addEventListener('click', function() {
   }
 });
 
-zeroButton.addEventListener('click', function() {
+zeroButton.addEventListener('click', function () {
   number = 0;
   updateNumber();
 });
 
-increaseButton.addEventListener('click', function() {
+increaseButton.addEventListener('click', function () {
   if (number < 100) {
     number++;
     updateNumber();
