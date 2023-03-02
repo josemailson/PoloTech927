@@ -1,0 +1,52 @@
+body {
+    background-color: #c9d1d3;
+    font-family: 'Bebas Neue', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    text-align: center;
+    padding: 15px;
+}
+
+#botao{
+    display: block;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #68b2f8;
+    text-transform: uppercase;
+    background-color: #7037cd;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0px 3px 0px #443a37;
+    transition: all 0.1s ease-in-out;
+}
+
+#botao:hover {
+    background-color: #651f71;
+    box-shadow: 0px 5px 0px #1d0c20;
+}
+
+#carregando {
+    display: none;
+}
+
+#mensagem {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #506ee5;
+    font-size: 30px;
+    position: relative;
+}
